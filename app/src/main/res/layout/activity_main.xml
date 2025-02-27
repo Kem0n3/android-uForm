@@ -32,7 +32,7 @@
             android:text="User details"
             android:textSize="20sp"
             android:textColor="#FFFFFF"
-            android:layout_marginBottom="16dp" />
+            android:layout_marginBottom="16dp"/>
 
         <EditText
             android:id="@+id/nameEditText"
@@ -42,7 +42,7 @@
             android:padding="12dp"
             android:layout_marginBottom="16dp"
             android:textColor="#FFFFFF"
-            android:textColorHint="#AAAAAA" />
+            android:textColorHint="#AAAAAA"/>
 <!--            android:background="@drawable/edit_text_border" />-->
 
         <EditText
@@ -54,7 +54,7 @@
             android:padding="12dp"
             android:layout_marginBottom="16dp"
             android:textColor="#FFFFFF"
-            android:textColorHint="#AAAAAA" />
+            android:textColorHint="#AAAAAA"/>
 <!--            android:background="@drawable/edit_text_border" />-->
 
         <RadioGroup
@@ -70,14 +70,14 @@
                 android:layout_height="wrap_content"
                 android:text="Male"
                 android:textColor="#FFFFFF"
-                android:layout_marginEnd="16dp" />
+                android:layout_marginEnd="16dp"/>
 
             <RadioButton
                 android:id="@+id/femaleRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Female"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"/>
         </RadioGroup>
 
         <CheckBox
@@ -86,7 +86,7 @@
             android:layout_height="wrap_content"
             android:text="I have read the agreement"
             android:textColor="#FFFFFF"
-            android:layout_marginBottom="16dp" />
+            android:layout_marginBottom="16dp"/>
 
         <Button
             android:id="@+id/submitButton"
@@ -96,6 +96,6 @@
             android:textAllCaps="false"
             android:padding="12dp"
             android:textColor="#FFFFFF"
-            android:backgroundTint="#333333" />
+            android:backgroundTint="#333333"/>
     </LinearLayout>
 </LinearLayout>
