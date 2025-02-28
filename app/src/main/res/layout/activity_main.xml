@@ -21,10 +21,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#212121"
         android:padding="16dp"
         android:layout_margin="8dp"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text_border" >
 
         <TextView
             android:layout_width="match_parent"
@@ -42,8 +42,8 @@
             android:padding="12dp"
             android:layout_marginBottom="16dp"
             android:textColor="#FFFFFF"
-            android:textColorHint="#AAAAAA"/>
-<!--            android:background="@drawable/edit_text_border" />-->
+            android:textColorHint="#AAAAAA"
+            android:background="@drawable/edit_text_border" />
 
         <EditText
             android:id="@+id/emailEditText"
@@ -54,8 +54,8 @@
             android:padding="12dp"
             android:layout_marginBottom="16dp"
             android:textColor="#FFFFFF"
-            android:textColorHint="#AAAAAA"/>
-<!--            android:background="@drawable/edit_text_border" />-->
+            android:textColorHint="#AAAAAA"
+            android:background="@drawable/edit_text_border" />
 
         <RadioGroup
             android:id="@+id/genderRadioGroup"
